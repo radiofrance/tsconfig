@@ -3,7 +3,7 @@
     // Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
     // "outDir": "dist",
 
-    "target": "es2017", // Node.js 8
+    "target": "es2019", // Node.js 8
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
