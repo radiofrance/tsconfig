@@ -1,13 +1,13 @@
 {
-  "name": "@sindresorhus/tsconfig",
-  "version": "0.7.0",
-  "description": "Shared TypeScript config for my projects",
-  "license": "MIT",
-  "repository": "sindresorhus/tsconfig",
+  "name": "@radiofrance/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript config for projects",
+  "license": "CECILL-B",
+  "repository": "radiofrance/tsconfig",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Radio France",
+    "email": "opensource@radiofrance.com",
+    "url": "www.radiofrance.fr"
   },
   "main": "tsconfig.json",
   "engines": {
