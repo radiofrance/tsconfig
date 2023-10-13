@@ -3,7 +3,7 @@
     // Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
     // "outDir": "dist",
 
-    "target": "es2019", // Node.js 8
+    "target": "ES2022", // Assuming nodejs 18 according to https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
