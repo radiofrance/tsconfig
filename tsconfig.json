@@ -1,25 +1,27 @@
 {
+  // For more information on theses keys, see https://www.typescriptlang.org/tsconfig/
   "compilerOptions": {
-    // Disabled because of https://github.com/Microsoft/TypeScript/issues/29172
-    // "outDir": "dist",
+    // Disabled because configDir is in beta https://github.com/microsoft/TypeScript/releases/tag/v5.5-beta
+    // "outDir": "${configDir}/dist",
 
-    "target": "ES2022", // Assuming nodejs 18 according to https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "jsx": "react",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "moduleDetection": "force",
+    "target": "es2022",
+
+    "resolveJsonModule": false, // ESM doesn't support JSON modules.
     "declaration": true,
-    "pretty": true,
-    "newLine": "lf",
+    "sourceMap": true,
     "stripInternal": true,
     "strict": true,
     "noImplicitReturns": true,
+    "noImplicitOverride": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noEmitOnError": true,
-    // Disabled because of TS bugs: https://github.com/sindresorhus/tsconfig/issues/7
-    // "useDefineForClassFields": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   }
