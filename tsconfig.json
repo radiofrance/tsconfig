@@ -5,27 +5,30 @@
 
     "module": "node18",
     "moduleDetection": "force",
-    "target": "es2022",
+    "target": "es2024",
 
-    "resolveJsonModule": false, // ESM doesn't support JSON modules.
     "declaration": true,
-    "sourceMap": true,
-    "stripInternal": true,
-    "strict": true,
-    "strictBuiltinIteratorReturn": true,
-    "noImplicitReturns": true,
-    "noImplicitOverride": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noEmitOnError": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "resolveJsonModule": false, // ESM doesn't support JSON modules.
     "rewriteRelativeImportExtensions": true,
-    "erasableSyntaxOnly": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+
+    "strict": true,
+    "stripInternal": true,
+
     "verbatimModuleSyntax": true,
   }
 }
