@@ -1,11 +1,9 @@
 {
   // For more information on theses keys, see https://www.typescriptlang.org/tsconfig/
   "compilerOptions": {
-    // Disabled because configDir is in beta https://github.com/microsoft/TypeScript/releases/tag/v5.5-beta
-    // "outDir": "${configDir}/dist",
+    "outDir": "${configDir}/dist",
 
-    "module": "node16",
-    "moduleResolution": "node16",
+    "module": "node18",
     "moduleDetection": "force",
     "target": "es2022",
 
@@ -14,15 +12,20 @@
     "sourceMap": true,
     "stripInternal": true,
     "strict": true,
+    "strictBuiltinIteratorReturn": true,
     "noImplicitReturns": true,
     "noImplicitOverride": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
+    "noUncheckedSideEffectImports": true,
     "noPropertyAccessFromIndexSignature": true,
     "noEmitOnError": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "rewriteRelativeImportExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
   }
 }
