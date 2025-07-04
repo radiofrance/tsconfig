@@ -7,11 +7,11 @@
   "author": {
     "name": "Radio France",
     "email": "opensource@radiofrance.com",
-    "url": "www.radiofrance.fr"
+    "url": "https://www.radiofrance.fr"
   },
   "main": "tsconfig.json",
   "engines": {
-    "node": ">=8"
+    "node": ">=22"
   },
   "files": [
     "tsconfig.json"

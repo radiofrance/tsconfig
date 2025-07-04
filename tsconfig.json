@@ -1,28 +1,34 @@
 {
   // For more information on theses keys, see https://www.typescriptlang.org/tsconfig/
   "compilerOptions": {
-    // Disabled because configDir is in beta https://github.com/microsoft/TypeScript/releases/tag/v5.5-beta
-    // "outDir": "${configDir}/dist",
+    "outDir": "${configDir}/dist",
 
-    "module": "node16",
-    "moduleResolution": "node16",
+    "module": "node18",
     "moduleDetection": "force",
-    "target": "es2022",
+    "target": "es2024",
 
-    "resolveJsonModule": false, // ESM doesn't support JSON modules.
     "declaration": true,
-    "sourceMap": true,
-    "stripInternal": true,
-    "strict": true,
-    "noImplicitReturns": true,
+    "erasableSyntaxOnly": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUncheckedSideEffectImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noEmitOnError": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+
+    "resolveJsonModule": false, // ESM doesn't support JSON modules.
+    "rewriteRelativeImportExtensions": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+
+    "strict": true,
+    "stripInternal": true,
+
+    "verbatimModuleSyntax": true,
   }
 }
