@@ -21,7 +21,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
 
-    "resolveJsonModule": false, // ESM doesn't support JSON modules.
     "rewriteRelativeImportExtensions": true,
     "skipLibCheck": true,
     "sourceMap": true,
