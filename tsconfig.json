@@ -11,6 +11,7 @@
     "declaration": true,
     "erasableSyntaxOnly": true,
     "forceConsistentCasingInFileNames": true,
+    "exactOptionalPropertyTypes": true,
 
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
