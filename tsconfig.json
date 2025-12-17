@@ -6,14 +6,11 @@
     "module": "node18",
     "moduleDetection": "force",
     "target": "es2024",
-    "lib": ["es2024"],
 
     "declaration": true,
     "erasableSyntaxOnly": true,
     "forceConsistentCasingInFileNames": true,
     "exactOptionalPropertyTypes": true,
-    "useDefineForClassFields": true,
-    "isolatedModules": true,
     "declarationMap": true,
 
     "noEmitOnError": true,
