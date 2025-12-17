@@ -12,6 +12,7 @@
     "erasableSyntaxOnly": true,
     "forceConsistentCasingInFileNames": true,
     "exactOptionalPropertyTypes": true,
+    "useDefineForClassFields": true,
 
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
