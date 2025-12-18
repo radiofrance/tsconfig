@@ -10,7 +10,6 @@
     "declaration": true,
     "erasableSyntaxOnly": true,
     "forceConsistentCasingInFileNames": true,
-    "exactOptionalPropertyTypes": true,
     "declarationMap": true,
 
     "noEmitOnError": true,
