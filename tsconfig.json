@@ -3,9 +3,9 @@
   "compilerOptions": {
     "outDir": "${configDir}/dist",
 
-    "module": "node18",
+    "module": "node20",
     "moduleDetection": "force",
-    "target": "es2024",
+    "target": "esnext",
 
     "declaration": true,
     "erasableSyntaxOnly": true,
@@ -22,7 +22,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
 
-    "resolveJsonModule": false, // ESM doesn't support JSON modules.
     "rewriteRelativeImportExtensions": true,
     "skipLibCheck": true,
     "sourceMap": true,
